@@ -9,4 +9,13 @@
 import UIKit
 
 class PlanetTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var planetNameLabel: UILabel!
+    
+    @IBOutlet weak var numberOfMoons: UILabel!
+
+    @IBOutlet weak var numberOfFacts: UILabel!
+    
+@IBOutlet weak var numberOfDaysFullOrbit: UILabel!
+
 }
